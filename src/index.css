@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-text-size {
+  @apply text-[13px] lg:text-[15px];
+}
+
+@layer base {
+  body {
+    @apply bg-[#fffef2];
+  }
+}

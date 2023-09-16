@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import TopNav from "../../pages/TopNav/TopNav";
 
 const Home = () => {
-    return (
-        <div>
-            <h1 className=' text-violet-600 font-bold text-5xl'>Hello</h1>
-        </div>
-    );
+  return (
+    <div>
+      <TopNav />
+    </div>
+  );
 };
 
 export default Home;
